@@ -1,0 +1,18 @@
+
+
+
+.seller-information-img img{
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.start-icon button{
+    background-color: white;
+    transition: 0.7s;
+}
+.start-icon button:hover{
+    background-color: #74767e;
+}

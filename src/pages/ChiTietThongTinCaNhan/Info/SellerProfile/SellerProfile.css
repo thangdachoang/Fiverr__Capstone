@@ -1,0 +1,139 @@
+.form-thin article{
+    border: 1px solid #ddd;
+    padding: 30px;
+    background-color: #fff;
+    padding: 50px 30px;
+}
+.form-thin article form{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.form-thin article .description{
+    padding-bottom: 20px;
+}
+
+.form-thin article h3 {
+    color: #0e0e0f;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 7px;
+    line-height: 120%;
+}
+
+.form-thin article .form-wrapper{
+    background-color: #f4f4f4;
+    margin: 0 -15px 20px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+.form-thin article  .add{
+    color: #00698c;
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+    
+}
+.form-thin article .js-form-overview .cancelBTN, .updateBTN {
+    width:40% ;
+    font-size: 14px;
+    
+}
+
+.form-thin article .js-form-overview .updateBTN{
+    background-color: #1dbf73;
+    font-size: 16px;
+    line-height: 16px;
+   
+}
+
+.form-thin article .js-form-overview  .cancelBTN{
+    background: 0 0;
+    background-color: #fff;
+    font-weight: 600;
+    color: #777;
+    border-color: #ccc;
+    text-shadow: none;
+}
+
+
+
+.form-thin article  textarea{
+    background-color: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: none;
+    font-size: 16px;
+    color: #7a7d85;
+    padding: 6px 7px 7px;
+    margin: 0;
+    resize: none;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    border: 1px solid #e5e5e5;
+    
+}
+.form-thin article .form-wrapper button{
+    width: 40%;
+}
+
+.js-form-overview .languages h3{
+    color: #0e0e0f;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+
+.form-thin input , select{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    color: #777;
+    font-size: 14px ;
+}
+
+/* Animate Button i */
+
+.form-thin .js-form-overview .items-list .animate button{
+    border: none;
+    background-color: white;;
+}
+.form-thin .js-form-overview .items-list .animate i{
+    border: none;
+    color: #999;
+   font-size: 14px;
+    opacity:0 ;
+    transition: 0.5s;
+   
+}
+.form-thin .js-form-overview .items-list:hover i{
+   
+   opacity: 1;
+   
+}
+
+
+.js-form-overview section .items-list{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.js-form-social-account .inner-row aside  h3{
+    color: #0e0e0f;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+
+.js-form-social-account .inner-row section .js-btn-facebook-connect  span{
+    color: #555;
+}
+
+ .form-thin article .empty-list{
+    color: #b2b2b2;
+    font-size: 14px;
+    padding-bottom: 20px;
+ }

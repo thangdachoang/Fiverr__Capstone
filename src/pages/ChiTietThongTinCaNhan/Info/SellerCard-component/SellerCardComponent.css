@@ -1,0 +1,121 @@
+
+.SellerCard-component{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #dadbdd;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.SellerCard-component .user-profile-info img, .SellerCard-component .user-profile-info svg{
+    
+    background-color: #e4e5e7;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+
+}
+
+
+.seller-card .user-online{
+    display: flex;
+    justify-content: flex-end;
+    
+   
+}
+
+.seller-card .user-online p{
+    border: 1px solid #1dbf73;
+    border-radius: 12px;
+    color: #1dbf73;
+    margin-bottom: 5px;
+    padding: 0 6px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.user-profile-info .flex-center .user-profile-img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.user-profile-info .flex-center .user-profile-img img {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+
+
+.user-profile-info .flex-center .user-profile-img img, .user-profile-info .flex-center .user-profile-img svg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.user-profile-info .user-profile-label .username-line{
+    justify-content: center;
+    display: flex;
+
+}
+
+.user-profile-info .user-profile-label .username-line .seller-link{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222325;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.user-profile-label .edit-mode{
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.user-profile-label .edit-mode button{
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.user-profile-label .edit-mode svg{
+    width: 21px;
+    height: 21px;
+    fill: #B5B6BA;
+}
+
+
+.user-stats-desc .user-stats{
+    border-top: 1px solid #dadbdd;
+    margin-top: 24px;
+    padding-top: 20px;
+    list-style: none;
+    list-style-image: none;
+}
+
+.user-stats-desc .user-stats li{
+    position: relative;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-stats-desc .user-stats li .user-stats-icon{
+    width: 13px;
+    height: 13px;
+    fill: #62646A;
+    margin-right: 12px;
+}
+
+.col-form-label{
+    font-weight: bold;
+}

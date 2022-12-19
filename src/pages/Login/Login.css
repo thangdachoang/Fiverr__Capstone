@@ -1,0 +1,204 @@
+.main-content {
+    position: relative;
+}
+
+.mp-box-min-height {
+    min-height: 650px;
+    background: #f7f7f7;
+    margin: 0 auto;
+    position: relative;
+}
+
+.standalone {
+    display: flex;
+    justify-content: center;
+}
+
+.standalone .entry {
+    background-color: #fff;
+}
+
+.sign-in-form {
+    padding: 0 36px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    text-align: center;
+}
+
+.form-header h4 {
+    color: #404145;
+}
+
+.social-signing-button.facebook-signing-button {
+    background: #4267b2;
+    border: 1px solid #4267b2;
+}
+
+.social-signing-button.facebook-signing-button:hover {
+    background: #4267b2;
+    opacity: .9;
+}
+
+.icon-button {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    padding: 12px 30px 12px 16px;
+    margin: 12px 0;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.icon-button:hover {
+    background: #fafafa;
+}
+
+.google-signing-button, .apple-signing-button {
+    border: 1px solid #e4e5e7;
+    background: #fff;
+}
+
+.provider-icon {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+}
+
+.icon-google {
+    fill: #74767e;
+}
+
+.social-signing-button.facebook-signing-button p {
+    color: #fff;
+}
+
+.icon-button p {
+    color: #62646a;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-separator {
+    height: 12px;
+    margin: 20px 0 32px;
+    text-align: center;
+    border-bottom: 1px solid #e4e5e7;
+}
+
+.form-separator span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    background-color: #fff;
+    color: #62646a;
+}
+
+.field {
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.field .field-input-wrapper {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+input.field-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #c5c6c9;
+    border-radius: 4px;
+    box-shadow: none;
+    font: inherit;
+    color: #404145;
+    transition: .15s ease-in-out;
+}
+
+input.field-input:hover {
+    outline: none;
+    border-color: #95979d;
+    box-shadow: none;
+}
+
+.submit-button {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    background-color: #1dbf73;
+
+    box-sizing: border-box;
+    position: relative;
+    padding: 12px 24px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 70ms cubic-bezier(.75,0,.25,1);
+}
+
+.submit-button:hover {
+    background: #19a463;
+}
+
+.signing-footer {
+    padding: 12px 0;
+    border-top: 1px solid #e4e5e7;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    flex: 1 1;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.link-join {
+    padding-left: 4px;
+    color: #1dbf73;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.error-alert {
+    padding-top: 8px;
+    color: #f74040;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+@media only screen and (min-width: 600px) {
+    .standalone {
+        padding-top: 24px;
+    }
+
+    .standalone .entry {
+        width: 400px;
+        border-radius: 4px;
+        box-shadow: 0 0 8px #95979d;
+    }
+
+    .form-header {
+        padding: 32px 0;
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+}

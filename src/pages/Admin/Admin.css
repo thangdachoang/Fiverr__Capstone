@@ -1,0 +1,19 @@
+.main-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.entry{
+    width: 800px;
+    padding-top: 30px;
+}
+.add-Admin{
+    margin-bottom: 20px;
+}
+.search{
+    margin-bottom: 20px;
+}
+.search input{
+    padding: 5px;
+}

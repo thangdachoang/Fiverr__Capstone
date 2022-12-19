@@ -1,0 +1,17 @@
+.gig-overview .seller-overview{
+    align-items: center;
+}
+
+.gig-overview .seller-overview .seller-info{
+    justify-content: flex-start;
+}
+
+.gig-overview .seller-overview .start-icon {
+    line-height: 0;
+}
+
+.seller-mota {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 25px;
+}

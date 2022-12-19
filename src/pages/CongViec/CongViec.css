@@ -1,0 +1,463 @@
+.related-search {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dadbdd;
+}
+
+.layout-row {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 56px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.layout-row b {
+    font-size: 15px;
+    margin: auto 0;
+    padding: 0 10px;
+}
+
+.search-tags a {
+    background-color: #fff;
+    font-size: 13px;
+    color: #62646a;
+    display: inline-block;
+    border: 1px solid #dadbdd;
+    padding: 0 10px;
+    margin: 15px 10px 15px 0;
+    border-radius: 3px;
+}
+
+.results-search {
+    padding: 0 32px;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+
+.results-search span {
+    color: #000;
+    font-size: 32px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.topbar {
+    min-height: 70px;
+}
+
+.shadow-effect {
+    height: 84%;
+    position: relative;
+}
+
+.floating-top-bar {
+    padding: 0 32px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    flex: 1 1;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.top-filters {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.top-filters button {
+    margin: 0 6px 0 0;
+    color: #222325;
+    font-size: 16px;
+    font-weight: 550;
+    border: 1px solid #dadbdd;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 6px 12px;
+    background: none;
+}
+
+span.chevron-icon-down {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    margin-left: 12px;
+    fill: #74767e;
+    background: none;
+    border: none;
+}
+
+.on-off {
+    margin-top: 16px;
+    display: flex;
+}
+
+.tool-tip {
+    margin-right: 32px;
+    display: inline-flex;
+}
+
+.tool-tip label {
+    display: flex;
+    margin-right: 10px;
+}
+
+.tool-tip input {
+    display: none;
+}
+
+.tool-tip label span {
+    height: 18px;
+    width: 31px;
+
+    display: inline-block;
+    position: relative;
+    border-radius: 999px;
+    background-color: #dadbdd;
+    cursor: pointer;
+}
+
+.tool-tip label span::after {
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    border: none;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 1;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgb(34 35 37 / 10%);
+    content: "";
+}
+
+/* services-available */
+.services-available {
+    padding: 0 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results-info {
+    color: #74767e;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.results-info span {
+    margin-right: 4px;
+}
+
+.sort-by-wrapper {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.sort-by-wrapper span {
+    font-weight: 400;
+}
+
+.floating-menu {
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+    margin: 0 6px;
+    color: #222325;
+    cursor: pointer;
+}
+
+.floating-menu span {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    margin-left: 12px;
+    position: relative;
+    fill: #74767e;
+    background: none;
+    border: none;
+}
+
+/* job-detail  */
+.job-detail-wrapper {
+    padding: 0 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.job-no-search {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px 32px 64px;
+}
+
+.error-image {
+    height: 232px;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.error-image img {
+    margin: auto;
+    height: 100%;
+}
+
+.error-image small {
+    position: absolute;
+    top: 25px;
+    margin-left: 150px;
+    line-height: 18px;
+
+    z-index: 1;
+    left: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #b5b6ba;
+    text-align: left;
+}
+
+.job-no-search h2 {
+    padding-bottom: 12px;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.job-no-search p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.job-no-search a{
+    margin-top: 28px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 12px 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: 70ms cubic-bezier(.75,0,.25,1);
+    background-color: #1dbf73;
+    color: #fff;
+}
+
+.job-detail {
+    margin-top: 16px;
+    min-height: 370px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+    width: 100%;
+    display: grid;
+}
+
+.job-detail-item {
+    width: 100%;
+    min-width: 245px;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #e4e5e7;
+}
+
+.job-detail-item>a {
+    display: block;
+    box-sizing: border-box;
+    background-color: #efeff0;
+    overflow: hidden;
+    position: relative;
+    /* padding-bottom: 60%; */
+}
+
+.job-detail-item:hover .description a {
+    color: #1dbf73;
+}
+
+.seller-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 14px;
+    line-height: 21px;
+
+    line-height: 120%;
+    box-sizing: border-box;
+    padding: 12px 12px 8px;
+    height: 54px;
+    width: 100%;
+}
+
+.seller-image {
+    position: relative;
+}
+
+.is-online {
+    background: #1dbf73;
+    width: 7px;
+    height: 7px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.avatar {
+    border-radius: 50%;
+    display: inline-flex;
+    position: relative;
+}
+
+.avatar img {
+    border-radius: 50%;
+    height: 24px;
+}
+
+.seller-identifiers {
+    margin-left: 8px;
+    width: calc(100% - 24px);
+}
+
+.seller-nickname {
+    height: 18px;
+    color: #222325;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.seller-nickname a {
+    color: #222325;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.level-seller {
+    color: #74767e;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.description a {
+    cursor: pointer;
+    color: #222325;
+    line-height: 22px;
+    font-weight: 400;
+    height: 43px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 12px 5px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    word-break: break-word;
+    transition: .15s ease-in-out;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.star-rate {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    height: 40px;
+    color: #ffbe5b;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.star-rate svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: -0.16em;
+}
+
+.star-rate span {
+    color: #b5b6ba;
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 15px;
+    clear: both;
+    border-top: 1px solid #efeff0;
+    min-height: 24px;
+}
+
+.heart-icon {
+    border: none;
+    background: none;
+}
+
+.heart-icon span {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    fill: #b5b6ba;
+}
+
+
+.footer-item a {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 1px;
+    color: #404145;
+    text-align: right;
+}
+
+.footer-item a small {
+    color: #74767e;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 0 0;
+    line-height: 20px;
+}
+
+.footer-item a span {
+    padding-left: 6px;
+}

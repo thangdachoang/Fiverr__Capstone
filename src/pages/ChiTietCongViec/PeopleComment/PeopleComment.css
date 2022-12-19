@@ -1,0 +1,14 @@
+
+.people-comment-avatar{
+    width: 100%;
+}
+
+.people-comment-new img{
+   width: 70%;
+    border-radius: 50%;
+}
+
+.people-comment-new textarea{
+    width: 80%;
+    height: 120px;
+}

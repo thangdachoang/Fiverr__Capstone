@@ -1,0 +1,48 @@
+.company {
+    margin-bottom: 96px;
+}
+
+.list-company {
+    padding: 0 32px;
+    background-color: #fafafa;
+}
+
+.list-company span {
+    padding-right: 20px;
+    color: #b5b6ba;
+    font-weight: 600;
+}
+
+.list-company ul {
+    height: 95px;
+    padding: 0 24px;
+    list-style: none;
+    margin: 0;
+}
+
+.list-company li {
+    padding-right: 60px;
+}
+
+
+/* responsive  */
+
+@media only screen and (min-width: 900px) {
+    .list-company li {
+        padding-right: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .list-company li {
+        padding-right: 24px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) {
+    .list-company li {
+        padding-right: 16px;
+    }
+}

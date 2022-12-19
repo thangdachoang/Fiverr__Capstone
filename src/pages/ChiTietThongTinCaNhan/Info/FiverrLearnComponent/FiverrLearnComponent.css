@@ -1,0 +1,68 @@
+body div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.fiverr-learn {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid #dadbdd;
+    padding: 32px 30px 15px;
+    margin-bottom: 25px;
+}
+
+.fiverr-learn header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.fiverr-learn footer {
+    text-align: center;
+}
+
+.fiverr-learn footer h5:before {
+    content: "";
+    background: url(https://npm-assets.fiverrcdn.com/assets/@fiverr-private/fiverr_learn/enroll-icon.69b770f.svg) 50% no-repeat;
+    display: block;
+    height: 96px;
+    margin-bottom: 16px;
+}
+
+.fiverr-learn footer h5{
+    padding-bottom: 4px;
+    line-height: 140%;
+}
+
+.fiverr-learn footer p {
+    padding-bottom: 20px;
+}
+
+.FW1syM7 {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding: 12px 24px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1dbf73;
+    color: #fff;
+}

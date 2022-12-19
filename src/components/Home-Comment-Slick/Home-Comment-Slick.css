@@ -1,0 +1,132 @@
+.comment {
+    padding: 0 32px;
+    margin-bottom: 96px;
+}
+
+.comment-item.row {
+    display: flex !important;
+}
+
+.comment-item .video-modal {
+    width: 40%;
+    min-height: 250px;
+    cursor: pointer;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.comment-item .video-modal::after {
+    content: "";
+    display: inline-block;
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/desktop-play-button.c1196d6.png) no-repeat;
+    background-size: 80px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.comment-item .video-modal img {
+    border-radius: 4px;
+
+}
+
+.comment-item .text-content {
+    padding: 0 48px 0 64px;
+    max-width: 707px;
+    width: 60%;
+}
+
+.comment-item .text-content h5 {
+    font-weight: 400;
+    color: #74767e;
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.comment-item .text-content span {
+    border-left: 1px solid #c5c6c9;
+    height: 36px;
+    margin-left: 16px;
+}
+
+.comment-item .text-content span img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    height: 36px;
+}
+
+.comment-item blockquote {
+    font-size: 30px;
+    line-height: 44px;
+    color: #003912;
+}
+
+.comment-item blockquote i {
+    font-weight: 500;
+}
+
+.comment .slick-prev,
+.comment .slick-next {
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    border: 0;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 30px;
+
+}
+
+.comment .slick-prev {
+    left: -20px;
+}
+
+.comment .slick-next {
+    right: -5px;
+}
+
+
+
+.slick-next::before {
+    display: inline-block;
+    background-size: 16px 64px;
+    width: 16px;
+    height: 16px;
+    margin-top: 16px;
+}
+
+
+/* responsive  */
+@media only screen and (max-width: 1159px) {
+    .comment-item blockquote {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .comment-item .text-content h5 {
+        font-size: 18px;
+    }
+}

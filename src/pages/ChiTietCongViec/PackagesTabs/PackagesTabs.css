@@ -1,0 +1,68 @@
+.packagestabs p{ 
+    font-size: 14px;
+}
+
+.packagestabs li{ 
+    font-size: 14px;
+    color: #95979d;
+}
+
+.packagestabs .nav-tabs {
+    flex-wrap: nowrap;
+}
+
+.packagestabs .nav-item{
+    width: 100%;
+    height: 60px;
+}
+
+
+.packagestabs .nav-link{
+    background-color: #00000000;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: #fafafa;
+    height: 100%;
+    font-weight: 700;
+    color: #74767e;
+
+    
+}
+
+.packagestabs .nav-item .active{
+    border-bottom: 3px solid #1dbf73;
+}
+
+
+
+.packagestabs .nav-item button :focus{
+    background-color: #fff;
+    border-bottom: 3px solid #1dbf73;
+    color: #1dbf73;
+    /* background-color: red; */
+}
+
+
+
+.packagestabs .tab-content .delivery-wrapper li{
+    margin-bottom: 10px;
+
+
+}
+
+.packagestabs .tab-content .delivery-wrapper li svg {
+    margin-right: 10px;
+}
+
+.packagestabs button{
+    background-color: #1dbf73;
+}
+
+.compare{
+    text-align: center;
+}
+
+.compare h6 { 
+    font-size: 16px;
+}

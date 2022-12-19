@@ -1,0 +1,52 @@
+
+.js-form-skills .cancelBTN, .updateBTN {
+    width:40% ;
+    font-size: 14px;
+    
+}
+.js-form-skills .updateBTN{
+    background-color: #1dbf73;
+    font-size: 16px;
+    line-height: 16px;
+   
+}
+
+.js-form-skills  .cancelBTN{
+    background: 0 0;
+    background-color: #fff;
+    font-weight: 600;
+    color: #777;
+    border-color: #ccc;
+    text-shadow: none;
+}
+
+.js-form-skills .items-list .animate button{
+    border: none;
+    background-color: white;;
+}
+.js-form-skills .items-list .animate i{
+    border: none;
+    color: #999;
+   font-size: 14px;
+    opacity:0 ;
+    transition: 0.5s;
+   
+}
+.js-form-skills .items-list:hover i{
+   
+   opacity: 1;
+   
+}
+
+.skill-input{
+    margin: 5px 0;
+    align-items: center;
+}
+
+.skill-input .col {
+    padding-left: 0;
+}
+
+.button-skill{
+    margin: 5px 0;
+}

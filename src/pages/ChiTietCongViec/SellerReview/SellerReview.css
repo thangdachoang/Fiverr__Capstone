@@ -1,0 +1,19 @@
+.seller-review .review-bottom .hr-review{
+    width: 60%;
+}
+
+.seller-review .review-bottom .d-flex{
+    margin-bottom: 15px;
+}
+
+.seller-review .review-bottom .progress {
+    height: 10px;
+}
+
+.seller-review .review-bottom svg{
+    margin-left: 5px;
+}
+
+.seller-review .review-bottom .justify-content-around p{
+    color: #95979d;
+}

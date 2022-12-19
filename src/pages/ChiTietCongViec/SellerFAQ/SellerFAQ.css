@@ -1,0 +1,13 @@
+.accordion hr{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.seller-information-body p{
+    font-weight: 600;
+}
+
+
+.card .card-header{
+    background-color: white;
+}

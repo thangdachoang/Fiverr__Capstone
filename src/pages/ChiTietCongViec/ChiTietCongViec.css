@@ -1,0 +1,170 @@
+.gig_page_perseus p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#62646b;
+}
+
+.gig-overview .gig-NavLink li{
+    margin-right: 30px;
+
+}
+
+
+/* thanh header bottom  */
+.thanh-header-bottom1 {
+    border-bottom: 1px solid #e4e5e7;
+}
+
+.CategoriesMenu1 {
+    padding: 0 32px;
+    margin: 0;
+}
+
+.categories1 {
+    justify-content: space-between;
+}
+
+.categories1 a {
+    color: #74767e !important;
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.categories1 a::after:hover {
+    background: #1dbf73;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* hover dropdown  */
+li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.main-header1 .loaiCongViec {
+    padding: 0.25rem 1.5rem;
+}
+
+.main-header1 .dropdown-item:hover {
+    background: none;
+}
+
+.dropdown:hover {
+    color: #1dbf73;
+}
+
+
+/* gig_page_perseus */
+
+
+.gig-page{
+    display: flex;
+}
+
+.gig-page ul{
+    display: flex;
+}
+
+.seller-overview{
+   height: 30px;
+  
+}
+
+.seller-avatar img{
+    height: 30px ;
+    border-radius: 50%;
+    
+}
+
+.start-icon {
+    fill: #ffb33e;
+}
+
+.seller-slide img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.maunen{
+    background-color:#ffecd1 ;
+    text-decoration: none;
+}
+
+.seller-performance{
+    margin-bottom: 80px;
+}
+.seller-information{
+    position: relative;
+}
+
+.seller-information img{
+    width: 20%;
+    border-radius: 50%;
+}
+/* .seller-information path{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    fill: rgb(255, 194, 0);
+    overflow: visible;
+    z-index: 9;
+} */
+
+.accordion .card{
+    border: none ;
+    padding-bottom: 0;
+}
+.accordion hr{
+    padding-top: 0;
+}
+
+.accordion .card-header{
+    background-color: none;
+}
+
+.hr-review {
+    width: 40%;
+    
+}
+
+.review-bottom-left, .review-bottom-right{
+    width: 50%;
+}
+.review-bottom-right{
+    line-height: 2.5;
+}
+.review-bottom-right li{
+   width: 100%;
+   justify-content: space-between !important;
+}
+.seller-review hr{
+    height: 7px !important;
+    border-radius: 30px;
+    margin-right: 5%;
+    
+}
+
+.people img{
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+/* PackagesTabs */
+
+.packagestabs{
+    border: 1px solid black;
+}
+

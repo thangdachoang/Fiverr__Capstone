@@ -1,0 +1,241 @@
+.fiverr-carousel {
+    position: relative;
+}
+
+.hero-andrea {
+    background-image: url('../../assets/img/bg-hero-1-1792-x2.jpeg');
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    padding: 0 32px;
+}
+
+.hero-moon {
+    background-image: url('../../assets/img/bg-hero-2-1792-x2.jpeg');
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    padding: 0 32px;
+}
+
+.hero-moon p::before,
+.hero-gabrielle p::before {
+    background-size: 77px;
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/five_stars.e5c37f5.svg) no-repeat;
+    background-size: 70px;
+    content: "";
+    display: block;
+    height: 17px;
+}
+
+.hero-rikita {
+    background-image: url('../../assets/img/bg-hero-3-1792-x2.jpeg');
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    padding: 0 32px;
+}
+
+.hero-zach {
+    background-image: url('../../assets/img/bg-hero-4-1792-x2.jpeg');
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    padding: 0 32px;
+}
+
+.hero-gabrielle {
+    background-image: url('../../assets/img/bg-hero-5-1792-x2.jpeg');
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    padding: 0 32px;
+}
+
+
+.seller-name {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.hero-backgrounds p {
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 32px;
+}
+
+.content-carousel {
+    max-width: 650px;
+    margin-top: 215px;
+    padding-left: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.content-carousel h1 {
+    padding-bottom: 24px;
+}
+
+.content-carousel span {
+    color: #fff;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.content-carousel form {
+    position: relative;
+}
+
+.content-carousel form span {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -7px;
+    left: 16px;
+}
+
+.content-carousel form input {
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    height: 48px;
+    width: 100%;
+    padding-left: 44px;
+    margin-bottom: 0;
+    padding-top: 8px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    border: none;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.content-carousel form button {
+    height: 48px;
+    border-radius: 0 4px 4px 0;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #1dbf73;
+    color: #fff;
+    border: none;
+}
+
+.content-carousel button:hover {
+    background: #19a463;
+}
+
+.popular {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 24px;
+}
+
+.popular ul {
+    width: 100%;
+    margin-left: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+.popular li {
+    margin-right: 12px;
+    white-space: nowrap;
+}
+
+.popular a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 1px 12px 0;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index: 4;
+}
+
+
+/* responsive carousel  */
+@media only screen and (max-width: 1160px) {
+
+    .content-carousel span {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .company span{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 899px) {
+
+    .hero-andrea,
+    .hero-zach,
+    .hero-rikita,
+    .hero-moon,
+    .hero-gabrielle {
+        background-color: #023a15;
+        background-image: none;
+    }
+
+    .seller-name {
+        display: none;
+    }
+
+    .popular {
+        display: none !important;
+    }
+
+    .content-carousel {
+        max-width: none;
+        padding: 0 96px;
+        margin-top: 125px;
+    }
+
+    .content-carousel form {
+        flex-direction: column;
+    }
+
+    .content-carousel form button {
+        margin: 12px 0 0;
+    }
+
+    
+    .carousel-inner{
+        height: 70vh;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 599px) {
+    .content-carousel span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .content-carousel {
+        max-width: none;
+        padding: 0 32px;
+    }
+
+}
+
